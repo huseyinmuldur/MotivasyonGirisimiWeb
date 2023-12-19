@@ -1,0 +1,7 @@
+-- iletisimform tablosu verileri
+CREATE TABLE IF NOT EXISTS iletisimform (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    isim_soyisim VARCHAR(255),
+    email VARCHAR(255),
+    mesaj TEXT
+);
